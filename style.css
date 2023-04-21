@@ -106,3 +106,12 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+.love{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}

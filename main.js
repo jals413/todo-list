@@ -6,6 +6,10 @@ function addTask(){
     {
         alert("Please Enter a Task!");
     }
+    else if(inputBox.value.length > 30)
+    {
+        alert("Task is too Large");
+    }
     else
     {
         let li=document.createElement("li");
